@@ -1,0 +1,372 @@
+html, body
+{
+    padding:0;
+    margin:0;
+    font-family: "Open Sans", Verdana, Sans-Serif;
+    font-size: 13px;
+    background: url(img/noise_lines.png);
+    height:100%;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 114, 188);
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dotted #A6AFB8;
+    background-color: #FFFFFF;
+    height: 1px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+h1 img, h2 img, h3 img, h4 img, h5 img {
+    vertical-align: middle;
+}
+
+img
+{
+    border: 0 none;
+}
+
+/* Header */
+
+#header {
+
+    background: #348eca;
+    height: 195px;
+    background-image: url(img/top_logo.png);
+    text-align: left;
+}
+
+#header .m-customer-name,
+#header .m-customer-title
+{
+    padding: 0 0 0 213px;
+    margin: 0;
+    font-size: 28px;/*27*/
+    font-weight: 700;
+    color: rgb(255, 222, 0);
+    display: block;
+    line-height: 32px;/**/
+}
+
+#header .m-customer-name
+{
+    padding-top: 32px;/*28*/
+}
+
+#header .m-location-and-time
+{
+    padding: 2px 0 0 213px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+#header h3 {
+    padding: 5px 0 0 213px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+}
+
+#header img {
+    border: 0 none;
+    margin: 21px 0 0 52px;
+    position: absolute;
+}
+
+/* Content */
+
+#container {
+    width: 1024px;
+    margin: 0 auto;
+    background: rgb(155, 25, 155) url(https://egu2018.eu/template_egu_content_bg_gradient.gif) 0 0 repeat-y;
+    min-height: 100%;
+    position: relative;
+}
+
+#content {
+    margin: 0 0 0 200px;
+}
+
+div#content {
+    width: 797px;
+    padding: 0 13px 70px 13px;
+}
+
+p
+{
+    padding: 0;
+    margin:0 0 1em 0;
+    color: 	rgb(0, 0, 0);
+    font-size: 13px;
+    line-height: 18px;
+}
+/* Content H1-H3 */
+#content h1,
+#content .h1
+{
+    margin: 0 0 10px 0;
+    padding: 0 0 2px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 114, 188);
+    border-bottom: 1px dotted #A6AFB8;
+    display: block;
+}
+
+
+#content h2,
+#content .h2
+{
+    margin: 17px 0 0 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 114, 188);
+    display: block;
+}
+
+#content h3,
+#content .h3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    display: block;
+}
+
+/* Left MENU*/
+
+#left {
+    float: left;
+    width: 200px;
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 50px;
+}
+
+#left h3{
+    color: #333;
+    font-size: 13px;
+    font-weight:bold;
+    line-height:16px;
+    margin: 0 13px;
+    padding: 0 0 3px;
+}
+
+/* Left UL */
+
+#left ul {
+
+    list-style-image: none;
+    list-style-type:none;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+#left ul li {
+    color:#fff;
+    font-size:13px;
+    margin: 0 13px 2px 13px;
+    padding: 0 0 0 1px;
+}
+
+.co_mto_fastEntry a,
+#left ul li a {
+	
+    background-color: #75848B;
+    display: block;
+    margin-left: 0;
+    padding: 4px 0 4px 4px;
+    text-decoration :none;
+	text-align:center;
+    color: #fff;
+    border:1px solid #C3C3C3;
+    font-weight: bold;
+}
+/*top menu hover*/
+#left ul li a:hover {
+    color: skyblue;
+    text-decoration: none;
+}
+
+/* Header Menu */
+
+#headermenu {
+    font-size: 13px;
+    height: 20px;
+    left: 213px;
+    line-height: 18px;
+    position: absolute;
+    top: 134px;
+}
+
+#headermenu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#headermenu a:hover {
+    text-decoration: underline;
+}
+
+#headermenu ul{
+    list-style-image: none;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#headermenu ul li {
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    background: transparent repeat scroll 0 0;
+    border-right: 1px dotted #FFFFFF;
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0 8px 0 0;
+}
+
+
+/* Footer */
+
+#footer {
+    height: 50px;
+    text-align: left;
+    border-top: 5px solid rgb(255, 222, 0);
+    background-color: rgb(117, 131, 139);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+/* Footer Menu */
+
+#footermenu {
+    padding-left: 213px;
+    padding-top: 20px;
+    font-size: 13px;
+    float: left;
+}
+
+#footermenu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#footermenu a:hover {
+    text-decoration: underline;
+}
+
+#footermenu ul{
+    list-style-image: none;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#footermenu ul li {
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    background: transparent repeat scroll 0 0;
+    border-right: 1px dotted #FFFFFF;
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0 8px 0 0;
+}
+
+#footermenu_top {
+    padding-top: 20px;
+    font-size: 13px;
+    float: right;
+}
+
+#footermenu_top a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#footermenu_top a:hover {
+    text-decoration: underline;
+}
+
+#footermenu_top ul{
+    list-style-image: none;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#footermenu_top ul li {
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    background: transparent none repeat scroll 0 0;
+    border-right: 1px dotted #FFFFFF;
+    border-left: 1px dotted #FFFFFF;
+    display: inline;
+    margin: 0 10px 0 9px;
+    padding: 0 10px 0 9px;
+}
+
+/*Fast entry buttons*/
+.co_mto_fastEntry .icon-sign-in,
+#m-fast-entry-buttons .icon-sign-in
+{
+	color: #fff;
+	margin-right: 3px;
+}
+
+.co_mto_fastEntry a,
+#m-fast-entry-buttons ul li a
+{
+	color: #fff;
+}
+co_mto_fastEntry a,
+#m-fast-entry-buttons ul li a:hover{
+	color: skyblue;
+}
+
+.tagtweets
+{
+    margin: 2px 13px 5px 13px;
+    font-size: 10px;
+}
+
+#TWEET :hover{
+	color: #1DA1F2;
+}
+#FB :hover{
+	color: #4867AA;
+}
+#INSTA :hover{
+	color: #A13AA5;
+}
+#LINKED :hover{
+	color: #0077B5;
+}
+#YT :hover{
+	color: #FF0000;
+}
